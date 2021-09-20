@@ -42,7 +42,8 @@ Thanks also to NASA for allowing us to use the shuttle datasets.
 Additional information:
 https://sci2s.ugr.es/keel/dataset.php?cod=108
 
-This data set was generated originally to extract comprehensible rules for determining the conditions under which an autolanding would be preferable to manual control of a spacecraft. 
+This data set was generated originally to extract comprehensible rules for determining 
+the conditions under which an autolanding would be preferable to manual control of a spacecraft. 
 
 The task is to decide what type of control of the vessel should be employed. 
 
