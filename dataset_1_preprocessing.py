@@ -29,8 +29,16 @@ dataset1_train['native-country'] = np.where(dataset1_train['native-country']=='U
 
 # Plots
 plt.hist(dataset1_train['race'], histtype='bar')
-plt.hist(dataset1_train['hours-per-week'], histtype='bar')
+plt.title('Race')
+plt.show()
+
 plt.hist(dataset1_train['education'], histtype='bar')
+plt.title('education')
+plt.show()
+
+# Correlation
+correlations = dataset1_train.corr(method ='pearson')
+dataset1_train['age'].corr(dataset1_train['over-50K'])
 
 
 # One-hot encoding
